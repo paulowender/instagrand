@@ -20,11 +20,17 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^3.2.3",
     "@nestjs/core": "^10.0.0",
+    "@nestjs/devtools-integration": "^0.1.6",
     "@nestjs/platform-express": "^10.0.0",
+    "instagram-web-api": "^2.2.2",
+    "joi": "^17.13.3",
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "tough-cookie-filestore2": "^1.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
